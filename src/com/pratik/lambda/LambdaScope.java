@@ -2,6 +2,11 @@ package com.pratik.lambda;
 
 import java.util.function.Consumer;
 
+/**
+ * Lambda's capture variables in external scope. A variable re-defined in an enclosing scope must
+ * be final or effectively final.
+ *
+ */
 public class LambdaScope {
 
 	public int x = 0;
